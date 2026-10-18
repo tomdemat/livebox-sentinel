@@ -1,5 +1,5 @@
 # Base image pinned by digest: a retagged upstream image cannot slip into a build.
-FROM python:3.11-slim@sha256:e88e9763f943ec1834f992a4b51e0f24500486803e8bc534e5767af9ea65f6ce
+FROM python:3.14-slim@sha256:a2b82f3c48559aa0a8446d9af49826b6e2b2016f4cd2afabfe6013ec53729170
 LABEL org.opencontainers.image.title="Livebox Sentinel" org.opencontainers.image.description="Surveillance locale d’un réseau domestique Livebox" org.opencontainers.image.licenses="MIT" org.opencontainers.image.source="https://github.com/tomdemat/livebox-sentinel"
 ARG GITHUB_HOST=github.com
 # LiveboxMonitor (MIT, Pierre Dor) provides the Livebox API client: release 1.7, pinned by commit.
