@@ -1,5 +1,14 @@
 # Journal des versions
 
+## 1.0.2 — 18 octobre 2026
+
+### Améliorations
+- Page **À propos** : LiveboxMonitor et son auteur, Pierre Dor, sont crédités nommément comme inspiration du projet.
+- README : crédits détaillés et possibilité de soutenir le projet par un don (Liberapay).
+
+### Sécurité du dépôt
+- Détection des secrets et blocage à l’envoi, alertes de vulnérabilité et correctifs automatiques activés ; branche `main` et versions publiées protégées contre la suppression et la réécriture.
+
 ## 1.0.1 — 18 octobre 2026
 
 ### Mises à jour
