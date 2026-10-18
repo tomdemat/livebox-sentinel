@@ -1,5 +1,14 @@
 # Journal des versions
 
+## 1.0.1 — 18 octobre 2026
+
+### Mises à jour
+- L’image passe de Python 3.11 à **Python 3.14** (image de base toujours figée par empreinte).
+- Composants de publication GitHub en nouvelle version majeure : connexion au registre, métadonnées, émulation et construction multi-plateforme.
+
+### Tests
+- Les réponses HTTP d’erreur des tests sont refermées proprement.
+
 ## 1.0.0 — 18 octobre 2026
 
 Première version partageable.

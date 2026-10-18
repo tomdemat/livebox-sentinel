@@ -86,6 +86,7 @@ class AccountTests(unittest.TestCase):
         except urllib.error.HTTPError as error:
             response = error
         body = response.read()
+        response.close()
         if response.headers.get_content_type() == "application/json":
             body = json.loads(body)
         return response.status, body, response.headers

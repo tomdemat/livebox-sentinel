@@ -28,7 +28,7 @@ from LiveboxMonitor.api.LmSession import LmSession
 from LiveboxMonitor.api.LmApiRegistry import ApiRegistry
 
 
-APP_VERSION = "1.0.0"
+APP_VERSION = "1.0.1"
 APP_RELEASE_DATE = "2026-10-18"
 STARTED_AT = time.time()
 LIVEBOX_URL = os.getenv("LIVEBOX_URL", "http://192.168.1.1/")
