@@ -1,0 +1,33 @@
+# Livebox Sentinel. Configuration: copy .env.example to .env and fill it in.
+#   docker compose up -d            # use the published image
+#   docker compose up -d --build    # or build it from this folder
+services:
+  livebox-sentinel:
+    image: ghcr.io/tomdemat/livebox-sentinel:latest
+    build: .
+    container_name: livebox-sentinel
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      # Inside the container Sentinel listens on every interface; the port below opens it on your network.
+      WEB_HOST: 0.0.0.0
+      WEB_PORT: "8080"
+    ports:
+      - "${WEB_PORT:-8080}:8080"
+    volumes:
+      - ./data:/data
+    user: "1000:1000"
+    read_only: true
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,size=16m
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8080/health', timeout=5)"]
+      interval: 60s
+      timeout: 10s
+      retries: 3
+      start_period: 30s

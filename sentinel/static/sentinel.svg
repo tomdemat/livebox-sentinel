@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <title>Livebox Sentinel — un regard sur votre réseau</title>
+  <defs>
+    <linearGradient id="tile" x1="6" y1="2" x2="60" y2="64" gradientUnits="userSpaceOnUse"><stop stop-color="#183952"/><stop offset="1" stop-color="#0a182c"/></linearGradient>
+    <linearGradient id="signal" x1="18" y1="13" x2="47" y2="51" gradientUnits="userSpaceOnUse"><stop stop-color="#a6e6ff"/><stop offset=".5" stop-color="#51c9ee"/><stop offset="1" stop-color="#55e2b1"/></linearGradient>
+  </defs>
+  <rect x="1" y="1" width="62" height="62" rx="19" fill="url(#tile)"/>
+  <rect x="1.5" y="1.5" width="61" height="61" rx="18.5" stroke="#8ed5ed" stroke-opacity=".24"/>
+  <path d="M32 10.5 49 17v14.5c0 10.2-7.1 17.4-17 22-9.9-4.6-17-11.8-17-22V17L32 10.5Z" stroke="url(#signal)" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M39.8 24.2a10.9 10.9 0 0 0-18.7 7.7h21.8a10.9 10.9 0 0 1-18.7 7.7" stroke="url(#signal)" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="m32 31.9 8.8-8.8" stroke="#b5f5ec" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="32" cy="31.9" r="3.1" fill="#b5f5ec"/>
+  <circle cx="41.1" cy="22.8" r="2.7" fill="#63e3bd" stroke="#123047" stroke-width="1.5"/>
+</svg>

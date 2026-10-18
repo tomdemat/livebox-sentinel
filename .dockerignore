@@ -1,0 +1,12 @@
+# Only sentinel/, tools/ and requirements.txt go into the image.
+.env
+.env.*
+data/
+.git/
+.gitignore
+tests/
+**/__pycache__/
+*.pyc
+*.md
+docs/
+.github/

@@ -1,0 +1,11 @@
+# Secrets and runtime data: never shared
+.env
+data/
+
+# Python
+__pycache__/
+*.pyc
+
+# Editors and systems
+.DS_Store
+*.swp
