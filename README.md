@@ -5,6 +5,8 @@
 ![Carte du réseau](docs/screenshots/carte-reseau.png)
 
 > Projet indépendant, non affilié à Orange. « Livebox » est une marque d’Orange.
+>
+> Sentinel est né de [LiveboxMonitor](https://github.com/p-dor/LiveboxMonitor), l’application de Pierre Dor pour piloter les Livebox, dont il réutilise les modules pour dialoguer avec la box.
 
 ## Ce que fait Sentinel
 
@@ -127,7 +129,7 @@ Signaler un problème, proposer une idée ou partager le projet aide tout autant
 
 ## Crédits
 
-- [LiveboxMonitor](https://github.com/p-dor/LiveboxMonitor) de Pierre Dor (licence MIT) : client de l’API de la Livebox.
+- **[LiveboxMonitor](https://github.com/p-dor/LiveboxMonitor) de Pierre Dor** (licence MIT) : l’inspiration de ce projet. Sentinel s’appuie sur ses modules Python pour dialoguer avec la Livebox ; son travail d’exploration de l’API de la box rend tout le reste possible. Merci à lui et à ses contributeurs.
 - Registre des fabricants : IEEE, via le fichier `manuf` de [Wireshark](https://www.wireshark.org/).
 
 ## Licence
