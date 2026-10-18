@@ -117,6 +117,14 @@ docker run --rm -p 127.0.0.1:19224:19224 -v "$PWD":/candidate:ro --tmpfs /tmp \
   --entrypoint python livebox-sentinel:dev /candidate/tests/browser/fixture_preview.py
 ```
 
+## Soutenir le projet
+
+Livebox Sentinel est libre et gratuit, développé et maintenu sur mon temps libre. Si l’outil vous rend service, vous pouvez soutenir son développement par un don, ponctuel ou régulier :
+
+<a href="https://liberapay.com/tomdemat/donate"><img alt="Faire un don avec Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a>
+
+Signaler un problème, proposer une idée ou partager le projet aide tout autant.
+
 ## Crédits
 
 - [LiveboxMonitor](https://github.com/p-dor/LiveboxMonitor) de Pierre Dor (licence MIT) : client de l’API de la Livebox.
