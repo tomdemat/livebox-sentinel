@@ -4,4 +4,4 @@ requests==2.34.2
 cryptography==50.0.2
 wakepy==1.0.0
 xmltodict==1.0.4
-python-dateutil==2.9.0.post0
+python-dateutil==3.0.0
